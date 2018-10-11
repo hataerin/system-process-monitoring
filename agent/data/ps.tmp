@@ -1,0 +1,261 @@
+UID         PID   PPID  C STIME TTY          TIME CMD
+root          1      0  0 10월03 ?      00:00:30 /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+root          2      0  0 10월03 ?      00:00:00 [kthreadd]
+root          3      2  0 10월03 ?      00:00:02 [ksoftirqd/0]
+root          5      2  0 10월03 ?      00:00:00 [kworker/0:0H]
+root          7      2  0 10월03 ?      00:00:01 [migration/0]
+root          8      2  0 10월03 ?      00:00:00 [rcu_bh]
+root          9      2  0 10월03 ?      00:00:59 [rcu_sched]
+root         10      2  0 10월03 ?      00:00:02 [watchdog/0]
+root         11      2  0 10월03 ?      00:00:02 [watchdog/1]
+root         12      2  0 10월03 ?      00:00:01 [migration/1]
+root         13      2  0 10월03 ?      00:00:03 [ksoftirqd/1]
+root         15      2  0 10월03 ?      00:00:00 [kworker/1:0H]
+root         16      2  0 10월03 ?      00:00:01 [watchdog/2]
+root         17      2  0 10월03 ?      00:00:02 [migration/2]
+root         18      2  0 10월03 ?      00:00:01 [ksoftirqd/2]
+root         20      2  0 10월03 ?      00:00:00 [kworker/2:0H]
+root         21      2  0 10월03 ?      00:00:01 [watchdog/3]
+root         22      2  0 10월03 ?      00:00:02 [migration/3]
+root         23      2  0 10월03 ?      00:00:00 [ksoftirqd/3]
+root         25      2  0 10월03 ?      00:00:00 [kworker/3:0H]
+root         27      2  0 10월03 ?      00:00:00 [kdevtmpfs]
+root         28      2  0 10월03 ?      00:00:00 [netns]
+root         29      2  0 10월03 ?      00:00:00 [khungtaskd]
+root         30      2  0 10월03 ?      00:00:00 [writeback]
+root         31      2  0 10월03 ?      00:00:00 [kintegrityd]
+root         32      2  0 10월03 ?      00:00:00 [bioset]
+root         33      2  0 10월03 ?      00:00:00 [kblockd]
+root         34      2  0 10월03 ?      00:00:00 [md]
+root         40      2  0 10월03 ?      00:00:01 [kswapd0]
+root         41      2  0 10월03 ?      00:00:00 [ksmd]
+root         42      2  0 10월03 ?      00:00:02 [khugepaged]
+root         43      2  0 10월03 ?      00:00:00 [crypto]
+root         51      2  0 10월03 ?      00:00:00 [kthrotld]
+root         53      2  0 10월03 ?      00:00:00 [kmpath_rdacd]
+root         55      2  0 10월03 ?      00:00:00 [kpsmoused]
+root         57      2  0 10월03 ?      00:00:00 [ipv6_addrconf]
+root         77      2  0 10월03 ?      00:00:00 [deferwq]
+root        114      2  0 10월03 ?      00:00:00 [kauditd]
+root        298      2  0 10월03 ?      00:00:00 [mpt_poll_0]
+root        299      2  0 10월03 ?      00:00:00 [mpt/0]
+root        300      2  0 10월03 ?      00:00:00 [ata_sff]
+root        308      2  0 10월03 ?      00:00:00 [scsi_eh_0]
+root        309      2  0 10월03 ?      00:00:00 [scsi_tmf_0]
+root        311      2  0 10월03 ?      00:00:00 [scsi_eh_1]
+root        312      2  0 10월03 ?      00:00:00 [scsi_tmf_1]
+root        313      2  0 10월03 ?      00:00:00 [scsi_eh_2]
+root        314      2  0 10월03 ?      00:00:00 [scsi_tmf_2]
+root        316      2  0 10월03 ?      00:00:00 [ttm_swap]
+root        352      2  0 10월03 ?      00:00:00 [kworker/0:1H]
+root        394      2  0 10월03 ?      00:00:00 [kdmflush]
+root        395      2  0 10월03 ?      00:00:00 [bioset]
+root        406      2  0 10월03 ?      00:00:00 [kdmflush]
+root        407      2  0 10월03 ?      00:00:00 [bioset]
+root        420      2  0 10월03 ?      00:00:00 [bioset]
+root        421      2  0 10월03 ?      00:00:00 [xfsalloc]
+root        422      2  0 10월03 ?      00:00:00 [xfs_mru_cache]
+root        423      2  0 10월03 ?      00:00:00 [xfs-buf/dm-0]
+root        424      2  0 10월03 ?      00:00:00 [xfs-data/dm-0]
+root        425      2  0 10월03 ?      00:00:00 [xfs-conv/dm-0]
+root        426      2  0 10월03 ?      00:00:00 [xfs-cil/dm-0]
+root        427      2  0 10월03 ?      00:00:00 [xfs-reclaim/dm-]
+root        428      2  0 10월03 ?      00:00:00 [xfs-log/dm-0]
+root        429      2  0 10월03 ?      00:00:00 [xfs-eofblocks/d]
+root        430      2  0 10월03 ?      00:00:27 [xfsaild/dm-0]
+root        502      1  0 10월03 ?      00:00:07 /usr/lib/systemd/systemd-journald
+root        528      1  0 10월03 ?      00:00:00 /usr/sbin/lvmetad -f
+root        529      2  0 10월03 ?      00:00:00 [rpciod]
+root        530      2  0 10월03 ?      00:00:00 [xprtiod]
+root        532      1  0 10월03 ?      00:00:00 /usr/lib/systemd/systemd-udevd
+root        564      2  0 10월03 ?      00:00:00 [nfit]
+root        639      2  0 10월03 ?      00:00:00 [xfs-buf/sda1]
+root        640      2  0 10월03 ?      00:00:00 [xfs-data/sda1]
+root        641      2  0 10월03 ?      00:00:00 [xfs-conv/sda1]
+root        642      2  0 10월03 ?      00:00:00 [xfs-cil/sda1]
+root        643      2  0 10월03 ?      00:00:00 [xfs-reclaim/sda]
+root        644      2  0 10월03 ?      00:00:00 [xfs-log/sda1]
+root        645      2  0 10월03 ?      00:00:00 [xfs-eofblocks/s]
+root        646      2  0 10월03 ?      00:00:00 [xfsaild/sda1]
+root        653      2  0 10월03 ?      00:00:00 [kworker/1:1H]
+root        654      2  0 10월03 ?      00:00:00 [kworker/3:1H]
+root        686      1  0 10월03 ?      00:00:01 /sbin/auditd
+root        688    686  0 10월03 ?      00:00:01 /sbin/audispd
+root        690    688  0 10월03 ?      00:00:00 /usr/sbin/sedispatch
+root        711      1  0 10월03 ?      00:00:01 /usr/libexec/accounts-daemon
+rtkit       712      1  0 10월03 ?      00:00:17 /usr/libexec/rtkit-daemon
+root        713      1  0 10월03 ?      00:00:00 /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+polkitd     714      1  0 10월03 ?      00:00:48 /usr/lib/polkit-1/polkitd --no-debug
+dbus        715      1  0 10월03 ?      00:00:22 /bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root        724      1  0 10월03 ?      00:00:00 /usr/sbin/smartd -n -q never
+root        725      1  0 10월03 ?      00:00:26 /usr/sbin/irqbalance --foreground
+avahi       726      1  0 10월03 ?      00:00:00 avahi-daemon: running [linux.local]
+root        728      1  0 10월03 ?      00:00:55 /sbin/rngd -f
+libstor+    730      1  0 10월03 ?      00:00:01 /usr/bin/lsmd -d
+root        733      1  0 10월03 ?      00:00:00 /usr/bin/VGAuthService -s
+root        735      1  0 10월03 ?      00:00:00 /usr/sbin/abrtd -d -s
+root        736      1  0 10월03 ?      00:00:00 /usr/bin/abrt-watch-log -F Backtrace /var/log/Xorg.0.log -- /usr/bin/abrt-dump-xorg -xD
+root        742      1  0 10월03 ?      00:00:19 /usr/sbin/rsyslogd -n
+root        744      1  0 10월03 ?      00:00:00 /usr/sbin/ModemManager
+root        747      1  0 10월03 ?      00:00:00 /usr/bin/abrt-watch-log -F BUG: WARNING: at WARNING: CPU: INFO: possible recursive locking detected ernel BUG at list_del corruption list_add corruption do_IRQ: stack overflow: ear stack overflow (cur: eneral protection fault nable to handle kernel ouble fault: RTNL: assertion failed eek! page_mapcount(page) went negative! adness at NETDEV WATCHDOG ysctl table check failed : nobody cared IRQ handler type mismatch Machine Check Exception: Machine check events logged divide error: bounds: coprocessor segment overrun: invalid TSS: segment not present: invalid opcode: alignment check: stack segment: fpu exception: simd exception: iret exception: /var/log/messages -- /usr/bin/abrt-dump-oops -xtD
+root        749      1  0 10월03 ?      00:00:09 /usr/lib/systemd/systemd-logind
+root        753      1  0 10월03 ?      00:14:44 /usr/bin/vmtoolsd
+avahi       754    726  0 10월03 ?      00:00:00 avahi-daemon: chroot helper
+chrony      761      1  0 10월03 ?      00:00:01 /usr/sbin/chronyd
+root        770      1  0 10월03 ?      00:00:00 /usr/sbin/gssproxy -D
+root        773      1  0 10월03 ?      00:00:30 /bin/bash /usr/sbin/ksmtuned
+root        782      1  0 10월03 ?      00:00:00 /usr/sbin/mcelog --ignorenodev --daemon --syslog
+root        796      1  0 10월03 ?      00:00:02 /usr/bin/python -Es /usr/sbin/firewalld --nofork --nopid
+root        818      1  0 10월03 ?      00:00:02 /usr/sbin/NetworkManager --no-daemon
+root        852      2  0 10월03 ?      00:00:00 [kworker/2:1H]
+root       1136      1  0 10월03 ?      00:00:00 /usr/sbin/cupsd -f
+root       1137      1  0 10월03 ?      00:00:47 /usr/bin/python -Es /usr/sbin/tuned -l -P
+root       1138      1  0 10월03 ?      00:00:00 /usr/sbin/sshd -D
+root       1143      1  0 10월03 ?      00:00:00 /usr/sbin/libvirtd
+root       1147      1  0 10월03 ?      00:00:02 /usr/sbin/crond -n
+root       1149      1  0 10월03 ?      00:00:00 /usr/sbin/gdm
+root       1150      1  0 10월03 ?      00:00:00 /usr/sbin/atd -f
+root       1433      1  0 10월03 ?      00:00:04 /usr/libexec/postfix/master -w
+postfix    1442   1433  0 10월03 ?      00:00:00 qmgr -l -t unix -u
+nobody     1460      1  0 10월03 ?      00:00:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+root       1461   1460  0 10월03 ?      00:00:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+root       1565   1149  0 10월03 tty1   00:02:02 /usr/bin/X :0 -background none -noreset -audit 4 -verbose -auth /run/gdm/auth-for-gdm-B8qCF6/database -seat seat0 -nolisten tcp vt1
+root       1631      1  0 10월03 ?      00:00:00 /usr/libexec/upowerd
+root       1691      1  0 10월03 ?      00:00:10 /usr/libexec/packagekitd
+root       1693      1  0 10월03 ?      00:00:01 /usr/sbin/wpa_supplicant -u -f /var/log/wpa_supplicant.log -c /etc/wpa_supplicant/wpa_supplicant.conf -P /var/run/wpa_supplicant.pid
+colord     1713      1  0 10월03 ?      00:00:00 /usr/libexec/colord
+root       1834   1149  0 10월03 ?      00:00:02 gdm-session-worker [pam/gdm-password]
+user       1848      1  0 10월03 ?      00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+gdm        1852      1  0 10월03 ?      00:00:00 ibus-daemon --xim --panel disable
+gdm        1855   1852  0 10월03 ?      00:00:00 /usr/libexec/ibus-dconf
+gdm        1857      1  0 10월03 ?      00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+user       1866   1834  0 10월03 ?      00:00:01 /usr/libexec/gnome-session-binary --session gnome-classic
+user       1873      1  0 10월03 ?      00:00:00 dbus-launch --sh-syntax --exit-with-session
+user       1874      1  0 10월03 ?      00:00:00 /bin/dbus-daemon --fork --print-pid 4 --print-address 6 --session
+user       1906      1  0 10월03 ?      00:00:00 /usr/libexec/gvfsd
+user       1911      1  0 10월03 ?      00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+user       2003   1866  0 10월03 ?      00:00:01 /usr/bin/ssh-agent /bin/sh -c exec -l /bin/bash -c "env GNOME_SHELL_SESSION_MODE=classic gnome-session --session gnome-classic"
+user       2022      1  0 10월03 ?      00:00:00 /usr/libexec/at-spi-bus-launcher
+user       2027   2022  0 10월03 ?      00:00:00 /bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+user       2030      1  0 10월03 ?      00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+user       2049   1866  0 10월03 ?      00:12:44 /usr/bin/gnome-shell
+user       2061      1  0 10월03 ?      00:00:24 /usr/bin/pulseaudio --start --log-target=syslog
+user       2071   2049  0 10월03 ?      00:00:00 ibus-daemon --xim --panel disable
+user       2076   2071  0 10월03 ?      00:00:00 /usr/libexec/ibus-dconf
+user       2078      1  0 10월03 ?      00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+user       2086      1  0 10월03 ?      00:00:00 /usr/libexec/gnome-shell-calendar-server
+user       2089      1  0 10월03 ?      00:00:00 /usr/libexec/xdg-permission-store
+user       2098      1  0 10월03 ?      00:00:00 /usr/libexec/evolution-source-registry
+user       2103      1  0 10월03 ?      00:00:01 /usr/libexec/mission-control-5
+user       2107      1  0 10월03 ?      00:00:07 /usr/libexec/gvfs-udisks2-volume-monitor
+root       2116      1  0 10월03 ?      00:00:04 /usr/lib/udisks2/udisksd --no-debug
+user       2118      1  0 10월03 ?      00:00:00 /usr/libexec/goa-daemon
+user       2133      1  0 10월03 ?      00:00:12 /usr/libexec/goa-identity-service
+user       2136      1  0 10월03 ?      00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+user       2147      1  0 10월03 ?      00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+user       2161      1  0 10월03 ?      00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+user       2169      1  0 10월03 ?      00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+user       2200   1866  0 10월03 ?      00:00:25 /usr/libexec/gnome-settings-daemon
+user       2218   1866  0 10월03 ?      00:00:02 nautilus-desktop --force
+user       2223      1  0 10월03 ?      00:00:00 /usr/libexec/evolution-calendar-factory
+user       2226      1  0 10월03 ?      00:00:00 /usr/libexec/gsd-printer
+user       2240      1  0 10월03 ?      00:00:02 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+user       2265   1866  0 10월03 ?      00:00:00 abrt-applet
+user       2267   1866  0 10월03 ?      00:00:22 /usr/bin/gnome-software --gapplication-service
+user       2270      1  0 10월03 ?      00:17:07 /usr/bin/vmtoolsd -n vmusr
+user       2274   1866  0 10월03 ?      00:00:00 /usr/bin/seapplet
+user       2285   2071  0 10월03 ?      00:00:00 /usr/libexec/ibus-engine-simple
+user       2289   1866  0 10월03 ?      00:00:00 /usr/libexec/tracker-extract
+user       2294   1866  0 10월03 ?      00:00:00 /usr/libexec/tracker-miner-apps
+user       2296   1866  0 10월03 ?      00:00:00 /usr/libexec/tracker-miner-fs
+user       2319   1866  0 10월03 ?      00:00:00 /usr/libexec/tracker-miner-user-guides
+user       2337      1  0 10월03 ?      00:00:00 /usr/libexec/tracker-store
+user       2491   2223  0 10월03 ?      00:00:00 /usr/libexec/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx2223x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/2223/2
+user       2538      1  0 10월03 ?      00:00:00 /usr/libexec/dconf-service
+user       2589   2223  0 10월03 ?      00:00:00 /usr/libexec/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx2223x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/2223/3
+user       2689      1  0 10월03 ?      00:00:00 /usr/libexec/evolution-addressbook-factory
+user       2710   2689  0 10월03 ?      00:00:00 /usr/libexec/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx2689x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/2689/2
+user       2731      1  0 10월03 ?      00:00:24 /usr/libexec/gnome-terminal-server
+user       2737   2731  0 10월03 ?      00:00:00 gnome-pty-helper
+user       2738   2731  0 10월03 pts/0  00:00:00 bash
+root       2833   2738  0 10월03 pts/0  00:00:00 su -
+root       2844   2833  0 10월03 pts/0  00:00:00 -bash
+user       3524      1  0 10월03 ?      00:00:00 /usr/libexec/gvfsd-metadata
+user       6271   2731  0 10월03 pts/1  00:00:00 bash
+root       6314   6271  0 10월03 pts/1  00:00:00 su -
+root       6322   6314  0 10월03 pts/1  00:00:00 -bash
+user       6364   2731  0 10월03 pts/2  00:00:00 bash
+root       6439   6364  0 10월03 pts/2  00:00:00 su -
+root       6453   6439  0 10월03 pts/2  00:00:00 -bash
+user       6520   2731  0 10월03 pts/3  00:00:00 bash
+root       6586   6520  0 10월03 pts/3  00:00:00 su -
+root       6598   6586  0 10월03 pts/3  00:00:00 -bash
+root      94754      2  0 08:46 ?        00:00:04 [kworker/0:2]
+root      95084      2  0 09:16 ?        00:00:00 [kworker/2:0]
+root      95750      2  0 10:15 ?        00:00:06 [kworker/3:0]
+root      96512      2  0 11:16 ?        00:00:00 [kworker/2:2]
+root      96591    818  0 11:16 ?        00:00:00 /sbin/dhclient -d -q -sf /usr/libexec/nm-dhcp-helper -pf /var/run/dhclient-ens33.pid -lf /var/lib/NetworkManager/dhclient-07cebf22-c08d-46d5-b7ca-ad67b0bacfd0-ens33.lease -cf /var/lib/NetworkManager/dhclient-ens33.conf ens33
+root      96943   1138  0 11:32 ?        00:00:00 sshd: root@notty
+root      96955  96943  0 11:32 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root      97072      2  0 11:34 ?        00:00:01 [kworker/0:1]
+oracle    97277      1  0 11:35 ?        00:00:01 /u01/app/oracle/product/11.2.0/xe/bin/tnslsnr LISTENER -inherit
+root      97278      2  0 11:35 ?        00:00:00 [dio/dm-0]
+oracle    97800      1  0 11:36 ?        00:00:01 xe_pmon_XE
+oracle    97802      1  0 11:36 ?        00:00:03 xe_psp0_XE
+oracle    97804      1  0 11:36 ?        00:00:05 xe_vktm_XE
+oracle    97808      1  0 11:36 ?        00:00:00 xe_gen0_XE
+oracle    97810      1  0 11:36 ?        00:00:00 xe_diag_XE
+oracle    97812      1  0 11:36 ?        00:00:00 xe_dbrm_XE
+oracle    97814      1  0 11:36 ?        00:00:05 xe_dia0_XE
+oracle    97816      1  0 11:36 ?        00:00:00 xe_mman_XE
+oracle    97818      1  0 11:36 ?        00:00:00 xe_dbw0_XE
+oracle    97820      1  0 11:36 ?        00:00:00 xe_lgwr_XE
+oracle    97822      1  0 11:36 ?        00:00:03 xe_ckpt_XE
+oracle    97824      1  0 11:36 ?        00:00:00 xe_smon_XE
+oracle    97826      1  0 11:36 ?        00:00:00 xe_reco_XE
+oracle    97828      1  0 11:36 ?        00:00:02 xe_mmon_XE
+oracle    97830      1  0 11:36 ?        00:00:01 xe_mmnl_XE
+oracle    97832      1  0 11:36 ?        00:00:00 xe_d000_XE
+oracle    97834      1  0 11:36 ?        00:00:00 xe_s000_XE
+oracle    97836      1  0 11:36 ?        00:00:00 xe_s001_XE
+oracle    97838      1  0 11:36 ?        00:00:00 xe_s002_XE
+oracle    97840      1  0 11:36 ?        00:00:00 xe_s003_XE
+oracle    97946      1  0 11:36 ?        00:00:49 xe_vkrm_XE
+oracle    97948      1  0 11:36 ?        00:00:00 xe_qmnc_XE
+oracle    97962      1  0 11:36 ?        00:00:02 xe_cjq0_XE
+oracle    97992      1  0 11:36 ?        00:00:00 xe_q000_XE
+oracle    97994      1  0 11:36 ?        00:00:00 xe_q001_XE
+oracle    98124      1  0 11:41 ?        00:00:00 xe_smco_XE
+root      98163   1138  0 11:44 ?        00:00:01 sshd: root@pts/4,pts/5,pts/6,pts/7,pts/8,pts/9,pts/10
+root      98168  98163  0 11:44 pts/4    00:00:00 -bash
+root      99995  98163  0 13:56 pts/5    00:00:00 -bash
+root     100070  98163  0 13:56 pts/6    00:00:00 -bash
+root     104019  98163  0 14:25 pts/7    00:00:00 -bash
+root     106677   1138  0 14:44 ?        00:00:00 sshd: root@notty
+root     106689 106677  0 14:44 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root     107591  98163  0 14:51 pts/8    00:00:00 -bash
+root     110922  98163  0 15:04 pts/9    00:00:00 -bash
+root     111325 110922  0 15:06 pts/9    00:00:00 ./sqlplus
+oracle   111327      1  0 15:06 ?        00:00:00 oracleXE (LOCAL=NO)
+root     111548  98163  0 15:07 pts/10   00:00:00 -bash
+root     114634      2  0 15:28 ?        00:00:00 [kworker/u256:0]
+root     115005 104019  0 15:30 pts/7    00:00:00 tail -f agent.log
+root     115800  98168  0 15:46 pts/4    00:00:00 ./sockserver 2000 xe test test
+oracle   115802      1  0 15:46 ?        00:00:00 oracleXE (LOCAL=NO)
+root     115877 100070  0 15:46 pts/6    00:00:00 tail -f sockserver.log
+root     116298  99995  0 15:49 pts/5    00:00:03 ./agent 127.0.0.1 2000 1
+postfix  119906   1433  0 16:17 ?        00:00:00 pickup -l -t unix -u
+root     120802      2  0 16:24 ?        00:00:00 [kworker/1:1]
+root     121564      2  0 16:30 ?        00:00:00 [kworker/u256:1]
+root     122017   6322  0 16:33 pts/1    00:00:00 su -
+root     122020 122017  0 16:33 pts/1    00:00:00 -bash
+root     122305      2  0 16:34 ?        00:00:00 [kworker/1:2]
+root     122318   6598  0 16:35 pts/3    00:00:00 vi edaemon.log
+root     122493      2  0 16:36 ?        00:00:00 [kworker/3:2]
+root     123023      2  0 16:40 ?        00:00:00 [kworker/u256:2]
+root     123098      2  0 16:40 ?        00:00:00 [kworker/1:0]
+root     123239      2  0 16:41 ?        00:00:00 [kworker/3:1]
+oracle   123346      1  0 16:42 ?        00:00:00 xe_w000_XE
+root     123569    773  0 16:43 ?        00:00:00 sleep 60
+root     123692 116298  0 16:44 pts/5    00:00:00 sh -c ps -ef > ./data/ps.tmp
+root     123693 123692  0 16:44 pts/5    00:00:00 ps -ef

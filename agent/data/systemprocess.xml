@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Data> 
+<SystemProcess ProcessName="testapp" Arguments="1000" />
+<SystemProcess ProcessName="meoa" Arguments="DB_SNDR.xml" />
+</Data>
+
+
+

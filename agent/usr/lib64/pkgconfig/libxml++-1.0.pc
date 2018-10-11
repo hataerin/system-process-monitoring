@@ -1,0 +1,12 @@
+prefix=/home/mte/usr
+exec_prefix=${prefix}
+libdir=/home/mte/usr/lib64
+includedir=${prefix}/include
+
+Name: libxml++
+Description: C++ wrapper for libxml
+Requires: libxml-2.0
+Version: 1.0.5
+Libs: -L${libdir} -lxml++-1.0
+Cflags: -I${includedir}/libxml++-1.0 -I${libdir}/libxml++-1.0/include
+

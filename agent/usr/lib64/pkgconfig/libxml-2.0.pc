@@ -1,0 +1,13 @@
+prefix=/home/mte/usr
+exec_prefix=${prefix}
+libdir=/home/mte/usr/lib64
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.6.30
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private:  -L/home/mte/usr/lib -lz -L/home/mte/usr/lib -liconv -lm 
+Cflags: -I${includedir}/libxml2 -I/home/mte/usr/include 
